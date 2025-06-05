@@ -1,13 +1,13 @@
 # Spree Gateway
 
-Community supported Spree Payment Method Gateways. It works as a wrapper for
+Community-supported Spree Payment Method Gateways. It works as a wrapper for
 [active_merchant](https://github.com/activemerchant/active_merchant) gateway. 
 
 > [!NOTE]  
 > For **Stripe** support, please go to [Spree Stripe](https://github.com/spree/spree_stripe) 
 
 > [!NOTE]  
-> For **Braintree & PayPal** support head over to [Spree Braintree](https://github.com/spree-contrib/spree_braintree_vzero)
+> For **PayPal** support head over to [Spree PayPal Checkout](https://github.com/spree/spree_paypal_checkout)
 
 Supported payment gateways:
 * Authorize.net (with CIM support)
