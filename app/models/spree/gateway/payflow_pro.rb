@@ -11,7 +11,7 @@ module Spree
       options_without_test_preference.merge(:test => self.preferred_test_mode)
     end
 
-    alias_method_chain :options, :test_preference
-
+    alias_method :options_without_test_preference, :options
+    alias_method :options, :options_with_test_preference
   end
 end
